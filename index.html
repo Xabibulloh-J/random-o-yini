@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Random o'yini</title>
+   <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+   <main>
+      <section class="random">
+         <h1 class="random-title">RANDOM SONNI TOPISH O'YINI</h1>
+         <form class="js-form" autocomplete="off">
+            <label class="random-label" for="random">
+               1 dan 100 gacha bo'lgan sonni taxmin qiling, sizda 6 ta imkoniyat bor
+            </label>
+            <input
+            id="random"
+            class="random-input js-input"
+            type="number"
+            min="1" max="100"
+            placeholder="Raqam kiriting">
+         </form>
+         <p class="random-desc js-random-desc"></p>
+         <p class="random-error-desc js-random-error-desc"></p>
+         <a href="./index.html" class="random-refresh js-refresh"></a>
+      </section>
+   </main>
+
+
+   <script src="./main.js"></script>
+</body>
+</html>
