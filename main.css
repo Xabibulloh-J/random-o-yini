@@ -29,7 +29,12 @@ body {
 
 .random-input {
    width: 150px;
+   margin-right: 5px;
    margin-bottom: 5px;
+   padding: 5px;
+}
+
+.random-btn {
    padding: 5px;
 }
 
